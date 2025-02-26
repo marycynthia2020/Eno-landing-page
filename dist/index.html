@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="w-screen overflow-x-hidden font-raleway">
+    <div class="w-full mx-auto max-w-[1440px]">
+      <header>
+        <nav
+          class="text-[#5F687B] w-[100%] py-8 shadow-md fixed inset-x-0 z-10 bg-white"
+        >
+          <div class="w-[65%] mx-auto flex justify-between items-center">
+            <div>
+              <p class="text-3xl font-bold">eNno</p>
+            </div>
+            <ul class="hidden md:flex items-center gap-8">
+              <li><a href="" class="hover:text-[#00bb6e]">Home</a></li>
+              <li><a href="" class="hover:text-[#00bb6e]">About</a></li>
+              <li><a href="" class="hover:text-[#00bb6e]">Service</a></li>
+              <li><a href="" class="hover:text-[#00bb6e]">Portfolio</a></li>
+              <li><a href="" class="hover:text-[#00bb6e]">Team</a></li>
+              <li class="flex items-center gap-1 hover:text-[#00bb6e]">
+                <a href=""> Dropdown</a>
+                <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
+              </li>
+              <li><a href="" class="hover:text-[#00bb6e]">Contact</a></li>
+              <li>
+                <a
+                  href=""
+                  class="bg-[#00bb6e] px-4 py-2 text-sm text-white rounded-[50px]"
+                  >Get Started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section>
+          <div
+            class="w-[90%] mx-auto flex flex-col-reverse md:flex-row items-center justify-between max-h-[70vh] mb-4 min-h-screen"
+          >
+            <div class="w-[90%] text-center md:text-left md:w-2/4">
+              <h1 class="text-5xl font-bold text-[#5F687B] mb-8">
+                Elegant and creative solutions
+              </h1>
+              <p class="text-[#afbccc] text-xl mb-8">
+                We are team of talented designers making websites with Bootstrap
+              </p>
+              <div class="flex items-center gap-4">
+                <a
+                  href=""
+                  class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px]"
+                  >Get Started</a
+                >
+                <span
+                  class="flex gap-2 items-center text-[15px] text-[#444444] font-semibold"
+                >
+                  <img
+                    src="/images/play-button-simple-svgrepo-com.svg"
+                    alt=""
+                  />Watch video
+                </span>
+              </div>
+            </div>
+            <div class="2/4">
+              <img
+                src="/images/hero-img.png"
+                alt=""
+                width="636"
+                class="animate"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 3 cards -->
+        <section class="w-full">
+          <div class="w-[90%] mx-auto grid md:grid-cols-3 mb-32">
+            <div
+              class="w-[90%] mx-auto flex flex-col gap-2 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:animate justify-between"
+            >
+              <img src="/images/heartrate.png" alt="" class="w-12" />
+              <p class="text-xl font-bold hover:text-[#00bb6e]">Lore Ipsum</p>
+              <p class="leading-6 text-sm">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+            <div
+              class="w-[90%] mx-auto flex flex-col gap-2 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:animate justify-between"
+            >
+              <img src="/images/4pointers.png" alt="" class="w-12" />
+              <p class="text-xl font-bold hover:text-[#00bb6e]">
+                Sed ut perspici
+              </p>
+              <p class="leading-6 text-sm">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore
+              </p>
+            </div>
+            <div
+              class="w-[90%] mx-auto flex flex-col gap-2 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:anime jstify-between"
+            >
+              <img src="/images/battery.png" alt="" class="w-12" />
+              <p class="text-xl font-bold hover:text-[#00bb6e]">
+                Magni Dolores
+              </p>
+              <p class="leading-6 text-sm">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- aboout -->
+
+        <section class="w-full">
+          <div class="w-[90%] mx-auto">
+            <h2 class="font-bold text-[32px] mb-5 text-center text-[#5F687B]">
+              About
+            </h2>
+            <p class="text-[#444444] text-center mb-10">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+
+            <div
+              class="w-full flex flex-col md:flex-row justify-between items-center mb-20"
+            >
+              <div class="w-[90%] mx-auto md:w-2/4">
+                <img src="/images/about.png" alt="" class="w-[95%]" />
+              </div>
+              <div class="w-[90%] mx-auto flex flex-col gap-2 md:w-2/4">
+                <h1 class="text-[28px] font-bold text-[#5F687B]">
+                  Voluptatem dignissimos provident quasi corporis voluptates sit
+                  assumenda.
+                </h1>
+                <p class="italic text-[#444444] mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <span class="flex gap-2">
+                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
+                <span class="flex gap-2 text-[#444444]">
+                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                </span>
+                <span class="flex gap-2 text-[#444444]">
+                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate trideta
+                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </span>
+                <span class="text-[#444444] mt-2"
+                  >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident</span
+                >
+              </div>
+            </div>
+
+            <div
+              class="w-[90%] md:w-4/5 mx-auto font-Roboto grid md:grid-cols-4 pb-10 space-y-8 md:space-y-0 place-items-center md:place-items-start"
+            >
+              <div>
+                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">232</h2>
+                <p clss="text-[15px] text-[#444444]">clients</p>
+              </div>
+              <div>
+                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">521</h2>
+                <p clss="text-[15px] text-[#444444]">Projects</p>
+              </div>
+              <div>
+                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">1453</h2>
+                <p clss="text-[15px] text-[#444444]">Hours of Support</p>
+              </div>
+              <div>
+                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">32</h2>
+                <p clss="text-[15px] text-[#444444]">Workers</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- services -->
+        <section class="w-full bg-[#f9f9f9]">
+          <div class="w-[90%] mx-auto pt-24">
+            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+              SERVICES
+            </h2>
+            <p class="text-[#444444] text-center mb-10">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+            <div class="grid md:grid-cols-3 gap-6 pb-12">
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+
+              <div
+                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              >
+                <img
+                  src="/images/shapeonstreiods.jpg"
+                  alt=""
+                  class="w-[64px] rounded-lg"
+                />
+                <h3
+                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                >
+                  Nesciunt Mete
+                </h3>
+                <p class="text-[#444444] text-sm">
+                  Provident nihil minus qui consequatur non omnis maiores. Eos
+                  accusantium minus dolores iure perferendis tempore et
+                  consequatur
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- portfolio -->
+
+        <section>
+          <div class="w-[90%] mx-auto pt-24">
+            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+              Portfolio
+            </h2>
+            <p class="text-[#444444] text-center mb-10">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+            <ul class="flex gap-6 items-center justify-center mb-4 font-bold">
+              <li class="hover:text-[#00bb6e]">ALL</li>
+              <li class="hover:text-[#00bb6e]">App</li>
+              <li class="hover:text-[#00bb6e]">Products</li>
+              <li class="hover:text-[#00bb6e]">Branding</li>
+              <li class="hover:text-[#00bb6e]">Books</li>
+            </ul>
+
+            <div class="grid md:grid-cols-4 gap-6 pb-12">
+              <img src="/images/one.jpg" alt="" />
+              <img src="/images/two.jpg" alt="" />
+              <img src="/images/three.jpg" alt="" />
+              <img src="/images/four.jpg" alt="" />
+              <img src="/images/six.jpg" alt="" />
+              <img src="/images/seven.jpg" alt="" />
+              <img src="/images/eight.jpg" alt="" />
+              <img src="/images/nine.jpg" alt="" />
+              <img src="/images/ten.jpg" alt="" />
+              <img src="/images/one.jpg" alt="" />
+              <img src="/images/two.jpg" alt="" />
+              <img src="/images/six.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
