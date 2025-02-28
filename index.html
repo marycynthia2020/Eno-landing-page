@@ -4,39 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/dist/style.css" />
+    <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/d7954b2970.js"
       crossorigin="anonymous"
     ></script>
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- title -->
+    <title>Eno landing page</title>
   </head>
+
   <body class="w-screen overflow-x-hidden font-raleway">
     <div class="w-full mx-auto">
       <header>
-        <nav
-          class="text-[#5F687B] w-[100%] py-8 shadow-sm fixed inset-x-0 z-10 bg-white"
-        >
-          <div class="w-[90%] md:w-[70%] mx-auto flex justify-between items-center">
+        <nav class="text-[#5F687B] w-[100%] py-8 fixed inset-x-0 z-10 bg-white">
+          <div
+            class="w-[90%] md:w-[70%] mx-auto flex justify-between items-center"
+          >
             <div>
               <p class="text-3xl font-bold">eNno</p>
             </div>
             <ul class="hidden md:flex items-center gap-8">
               <li><a href="#home" class="hover:text-[#00bb6e]">Home</a></li>
               <li><a href="#about" class="hover:text-[#00bb6e]">About</a></li>
-              <li><a href="#services" class="hover:text-[#00bb6e]">Service</a></li>
-              <li><a href="#portfolio" class="hover:text-[#00bb6e]">Portfolio</a></li>
+              <li>
+                <a href="#services" class="hover:text-[#00bb6e]">Service</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="hover:text-[#00bb6e]">Portfolio</a>
+              </li>
               <li><a href="#team" class="hover:text-[#00bb6e]">Team</a></li>
               <li class="flex items-center gap-1 hover:text-[#00bb6e]">
                 <a href="#dropdown"> Dropdown</a>
                 <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
               </li>
-              <li><a href="#contact" class="hover:text-[#00bb6e]">Contact</a></li>
+              <li>
+                <a href="#contact" class="hover:text-[#00bb6e]">Contact</a>
+              </li>
               <li>
                 <a
                   href=""
@@ -69,7 +82,7 @@
                   >Get Started</a
                 >
                 <span
-                  class="flex gap-2 items-center text-[15px] text-[#444444] font-semibold"
+                  class="flex gap-2 items-center text-[15px] text-[#444444] font-semibold hover:text-[#00bb6e]"
                 >
                   <img
                     src="/images/play-button-simple-svgrepo-com.svg"
@@ -95,34 +108,39 @@
             class="w-[90%] md:w-[70%] mx-auto grid md:grid-cols-3 mb-32 gap-8"
           >
             <div
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:animate justify-between slide"
+              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
+              data-aos="fade-up"
             >
               <img src="/images/heartrate.png" alt="" class="w-12" />
-              <p class="text-xl font-bold hover:text-[#00bb6e]">Lore Ipsum</p>
+              <h3 class="text-xl font-bold hover:text-[#00bb6e]">Lore Ipsum</h3>
               <p class="leading-6 text-sm">
                 Voluptatum deleniti atque corrupti quos dolores et quas
                 molestias excepturi
               </p>
             </div>
             <div
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:animate justify-between"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
             >
               <img src="/images/4pointers.png" alt="" class="w-12" />
-              <p class="text-xl font-bold hover:text-[#00bb6e]">
+              <h3 class="text-xl font-bold hover:text-[#00bb6e]">
                 Sed ut perspici
-              </p>
+              </h3>
               <p class="leading-6 text-sm">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore
               </p>
             </div>
             <div
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 hover:anime jstify-between"
+              data-aos="fade-up"
+              data-aos-delay="600"
+              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
             >
               <img src="/images/battery.png" alt="" class="w-12" />
-              <p class="text-xl font-bold hover:text-[#00bb6e]">
+              <h3 class="text-xl font-bold hover:text-[#00bb6e]">
                 Magni Dolores
-              </p>
+              </h3>
               <p class="leading-6 text-sm">
                 Voluptatum deleniti atque corrupti quos dolores et quas
                 molestias excepturi
@@ -134,26 +152,34 @@
         <!-- aboout -->
 
         <section class="w-full" id="about">
-          <div
-            class="w-[90%] md:w-[70%] mx-auto relative"
-          >
-            <h2 class="font-bold text-[32px] mb-5 text-center text-[#5F687B]">
+          <div class="w-[90%] md:w-[70%] mx-auto relative">
+            <h2
+              class="font-bold text-[32px] mb-5 text-center text-[#5F687B]"
+              data-aos="fade-up"
+            >
               About
               <span
-              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[5%] left-[42%] -z-1 opacity-10"
-              >ABOUT US</span
-            >
+                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
+                >ABOUT US</span
+              >
             </h2>
-            <p class="text-[#444444] text-center mb-10">
+            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
               consectetur velit
             </p>
 
             <div
               class="w-full flex flex-col md:flex-row justify-between space-y-12 items-center mb-20"
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
-              <div class="w-[90%] mx-auto md:w-2/4">
+              <div class="w-[90%] mx-auto md:w-2/4 relative">
                 <img src="/images/about.png" alt="" class="w-[95%]" />
+                <a
+                  href=""
+                  class="text-white bg-[#00bb6e] w-16 h-16 flex items-center justify-center rounded-full absolute top-[40%] left-[40%] animate-pulse"
+                  ><i class="fa-solid fa-play"></i
+                ></a>
               </div>
               <div class="w-[90%] mx-auto flex flex-col gap-2 md:w-2/4">
                 <h1 class="text-[28px] font-bold text-[#5F687B]">
@@ -189,7 +215,8 @@
             </div>
             <!-- numbers -->
             <div
-              class="w-[90%] md:w-[70%] mx-auto font-Roboto grid md:grid-cols-4 pb-10 space-y-8 md:space-y-0 place-items-center md:place-items-start"
+              class="w-[90%] md:w-[100%] mx-auto font-Roboto grid md:grid-cols-4 pb-10 space-y-8 md:space-y-0 place-items-center"
+              data-aos="flip-left"
             >
               <div>
                 <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">232</h2>
@@ -216,20 +243,24 @@
         <!-- services -->
         <section class="w-full bg-[#f9f9f9]" id="services">
           <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+            <h2
+              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+              data-aos="fade-up"
+            >
               SERVICES
               <span
-              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute top-[7%] left-[42%] -z-1 opacity-10"
-              >SERVICES</span
-            >
+                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
+                >SERVICES</span
+              >
             </h2>
-            <p class="text-[#444444] text-center mb-10">
+            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
               consectetur velit
             </p>
             <div class="grid md:grid-cols-3 gap-6 pb-12">
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -250,6 +281,8 @@
 
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -270,6 +303,8 @@
 
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
+                data-aos-delay="600"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -290,6 +325,8 @@
 
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
+                data-aos-delay="900"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -310,6 +347,8 @@
 
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
+                data-aos-delay="1200"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -330,6 +369,8 @@
 
               <div
                 class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                data-aos="fade-up"
+                data-aos-delay="1500"
               >
                 <img
                   src="/images/shapeonstreiods.jpg"
@@ -355,19 +396,24 @@
 
         <section class="fw-full" id="portfolio">
           <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+            <h2
+              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+              data-aos="fade-up"
+            >
               Portfolio
               <span
-              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute top-[4%] left-[41%] -z-1 opacity-10"
-              >PORTFOLIO</span
-            >
+                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[41%] -z-1 opacity-10"
+                >PORTFOLIO</span
+              >
             </h2>
-            <p class="text-[#444444] text-center mb-10">
+            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
               consectetur velit
             </p>
             <ul
               class="w-[90%] mx-auto md:w-full justify-between md:space-x-6 flex items-center md:justify-center mb-4 font-bold"
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
               <li class="hover:text-[#00bb6e]">ALL</li>
               <li class="hover:text-[#00bb6e]">APP</li>
@@ -376,7 +422,11 @@
               <li class="hover:text-[#00bb6e]">BOOKS</li>
             </ul>
 
-            <div class="grid md:grid-cols-3 gap-6 pb-16">
+            <div
+              class="grid md:grid-cols-3 gap-6 pb-16"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <!-- product 1 -->
               <div class="relative hovered">
                 <img src="/images/one.jpg" alt="" />
@@ -600,12 +650,15 @@
 
         <!-- testiomial section -->
 
-        <section class="w-full bg-[#F9F9F9]">
+        <section class="w-full">
           <div class="w-[90%] md:w-[70%] mx-auto pt-20 relative mb-56">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center">
+            <h2
+              class="text-[32px] font-bold text-[#5F687B] text-center"
+              data-aos="fade-up"
+            >
               TESTIMONIALS
               <span
-                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute top-[10%] left-[38%] -z-1 opacity-10"
+                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[53%] left-[38%] -z-1 opacity-10"
                 >TESTIMONIALS</span
               >
             </h2>
@@ -614,8 +667,8 @@
               consectetur velit
             </p>
             <div class="grid md:grid-cols-3 gap-6 space-y-32 md:space-y-0">
-              <div class="relative">
-                <div class="bg-[#f3f3f3] p-4 pb-12">
+              <div class="relative" data-aos="fade-left">
+                <div class="bg-[#f3f3f3] p-4 pb-20">
                   <i
                     class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
                   ></i>
@@ -626,7 +679,7 @@
                     class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
                   ></i>
                 </div>
-                <div class="absolute top-40 left-[10%]">
+                <div class="absolute top-[11rem] left-[8%]">
                   <img
                     src="/images/saul.jpg"
                     alt=""
@@ -636,8 +689,8 @@
                   <p class="text-sm text-[#444444]">Ceo & Founder</p>
                 </div>
               </div>
-              <div class="relative">
-                <div class="bg-[#f3f3f3] p-4 pb-12">
+              <div class="relative" data-aos="fade-left">
+                <div class="bg-[#f3f3f3] p-4 pb-20">
                   <i
                     class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
                   ></i>
@@ -648,19 +701,19 @@
                     class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
                   ></i>
                 </div>
-                <div class="absolute top-40 left-[10%]">
+                <div class="absolute top-[11rem] left-[8%]">
                   <img
                     src="/images/Matt.jpg"
                     alt=""
-                    class="w-[90px] aspect-square rounded-full"
+                    class="w-[80px] aspect-square rounded-full"
                   />
                   <h3 class="text-lg font-bold text-[#5f687b]">Matt Brandon</h3>
                   <p class="text-sm text-[#444444]">Freelancer</p>
                 </div>
               </div>
 
-              <div class="relative">
-                <div class="bg-[#f3f3f3] p-4 pb-12">
+              <div class="relative" data-aos="fade-left">
+                <div class="bg-[#f3f3f3] p-4 pb-20">
                   <i
                     class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
                   ></i>
@@ -671,7 +724,7 @@
                     class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
                   ></i>
                 </div>
-                <div class="absolute top-40 left-[10%]">
+                <div class="absolute top-[11rem] left-[8%]">
                   <img
                     src="/images/Sarah.jpg"
                     alt=""
@@ -690,6 +743,7 @@
         <section class="w-full bg-[#00bb6e] font-Roboto mb-32">
           <div
             class="w-[90%] md:w-[56%] mx-auto py-16 flex flex-col gap-4 text-white items-center text-center"
+            data-aos="zoom-in"
           >
             <h3 class="text-[28px] font-bold">Call To Action</h3>
             <p>
@@ -708,20 +762,23 @@
 
         <section class="w-full" id="team">
           <div class="w-[90%] md:w-[70%] mx-auto relative mb-44">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+            <h2
+              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+              data-aos="fade-up"
+            >
               TEAM
               <span
-                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[5%] left-[38%] -z-1 opacity-10"
+                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
                 >SECTION TITLE</span
               >
             </h2>
-            <p class="text-[#444444] text-center mb-14">
+            <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
               consectetur velit
             </p>
 
             <div class="grid md:grid-cols-3 gap-6 space-y-20 md:space-y-0">
-              <div class="relative">
+              <div class="relative" data-aos="fade-up">
                 <img src="/images/team-1.jpg" alt="" />
                 <div
                   class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
@@ -739,7 +796,7 @@
                   </div>
                 </div>
               </div>
-              <div class="relative">
+              <div class="relative" data-aos="fade-up" data-aos-delay="300">
                 <img src="/images/team-2.jpg" alt="" />
                 <div
                   class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
@@ -757,7 +814,7 @@
                   </div>
                 </div>
               </div>
-              <div class="relative">
+              <div class="relative" data-aos="fade-up" data-aos-delay="600">
                 <img src="/images/team-3.jpg" alt="" />
                 <div
                   class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
@@ -783,21 +840,24 @@
 
         <section class="w-full bg-white" id="contact md:max-h-[70vh]">
           <div class="w-[90%] md:w-[70%] mx-auto relative font-Roboto pb-16">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+            <h2
+              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+              data-aos="fade-up"
+            >
               CONTACT
               <span
-                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[5%] left-[38%] -z-1 opacity-10"
+                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
                 >SECTION TITLE</span
               >
             </h2>
-            <p class="text-[#444444] text-center mb-14">
+            <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
               Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
               consectetur velit
             </p>
 
-            <div class=" flex flex-col md:flex-row  gap-8 text-[#5F687B] ">
+            <div class="flex flex-col md:flex-row gap-8 text-[#5F687B]">
               <div class="w-[90%] mx-auto md:w-[45%] bg-white p-8 shadow-md">
-                <div class="flex items-center gap-4 mb-8">
+                <div class="flex items-center gap-4 mb-8" data-aos="fade-up">
                   <div
                     class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                   >
@@ -814,7 +874,11 @@
                     >
                   </p>
                 </div>
-                <div class="flex items-center gap-4 mb-8">
+                <div
+                  class="flex items-center gap-4 mb-8"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div
                     class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                   >
@@ -828,7 +892,11 @@
                     <span class="text-sm font-normal">+1 5589 55488 55</span>
                   </p>
                 </div>
-                <div class="flex items-center gap-4 mb-8">
+                <div
+                  class="flex items-center gap-4 mb-8"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
                   <div
                     class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                   >
@@ -842,31 +910,41 @@
                     <span class="text-sm font-normal">info@example.com</span>
                   </p>
                 </div>
-                <div>
-
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6683221.322733309!2d-88.2987726789892!3d35.12439449370824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdown%20town%20conference%20center!5e0!3m2!1sen!2sng!4v1740651669533!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[30vh] oj"></iframe>
-                  <!-- <img
-                    src="/images/mapppp.png"
-                    alt=""
-                    class="w-full h-[30vh] object-cover"
-                  /> -->
+                <div data-aos="fade-up" data-aos-delay="900">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6683221.322733309!2d-88.2987726789892!3d35.12439449370824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdown%20town%20conference%20center!5e0!3m2!1sen!2sng!4v1740651669533!5m2!1sen!2sng"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="w-full h-[30vh] oj"
+                  ></iframe>
                 </div>
               </div>
-              <div class="w-[90%] mx-auto md:w-[55%] bg-white p-8 shadow-md ">
+
+              <div class="w-[90%] mx-auto md:w-[55%] bg-white p-8 shadow-md">
                 <form
                   class="flex flex-col"
                   action="
                 "
                 >
                   <div class="flex items-center gap-8 mb-8">
-                    <div class="flex flex-col space-y-4 w-1/2">
+                    <div
+                      class="flex flex-col space-y-4 w-1/2"
+                      data-aos="fade-up"
+                    >
                       <label for="">Your Name</label>
                       <input
                         type="text"
                         class="border-2 h-[35px] focus:outline-green-300 focus:outline-none"
                       />
                     </div>
-                    <div class="flex flex-col space-y-4 w-1/2">
+                    <div
+                      class="flex flex-col space-y-4 w-1/2"
+                      data-aos="fade-up"
+                    >
                       <label for="">Your Your Email</label>
                       <input
                         type="text"
@@ -874,14 +952,22 @@
                       />
                     </div>
                   </div>
-                  <div class="mb-8 flex flex-col space-y-4">
+                  <div
+                    class="mb-8 flex flex-col space-y-4"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <label for="">Subject</label>
                     <input
                       type="text"
                       class="border-2 h-[35px] focus:outline-green-300 focus:outline-none"
                     />
                   </div>
-                  <div class="flex flex-col space-y-4 mb-8">
+                  <div
+                    class="flex flex-col space-y-4 mb-8"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                  >
                     <label for="">Message</label>
                     <textarea
                       class="border-2 h-[25vh] focus:outline-green-300 focus:outline-none"
@@ -890,6 +976,8 @@
 
                   <button
                     class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
                   >
                     Send message
                   </button>
@@ -899,10 +987,9 @@
           </div>
         </section>
 
-
         <!--sunscribe to news letter  -->
         <section class="w-full bg-[#F9F9F9]">
-          <div class="w-[90%] mx-auto md:w-[70%] py-16">
+          <div class="w-[90%] mx-auto md:w-[70%] py-16" data-aos="fade-right">
             <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
               Join Our Newsletter
             </h2>
@@ -911,9 +998,12 @@
               products and services!
             </p>
             <div class="w-3/5 mx-auto relative">
-              <input type="text" class="h-[35px] w-full bg-white rounded-2xl shadow-md">
-              <button>
-                <button
+              <input
+                type="text"
+                class="h-[35px] w-full bg-white rounded-2xl shadow-md"
+              />
+
+              <button
                 class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300 md:absolute right-0 -top-[10%]"
               >
                 Subscribe
@@ -921,78 +1011,126 @@
             </div>
           </div>
         </section>
-        </main>
+      </main>
 
-          <!-- footer -->
-        <footer>
-          <section class="w-full">
-            <div class=" w-[90%] md:w-[70%] mx-auto flex flex-col md:flex-row justify-between text-[#444444] font-Roboto py-10 ">
-              <ul class="mb-5 md:mb-0">
-                <li class="text-2xl font-bold text-[#5F687B] mb-4">eNno</li>
-                <li  class="text-sm mb-2"><a href="">A108 Adam Street</a></li>
-                <li  class="text-sm mb-4"><a href="">New York, NY 535022</a></li>
-                <li class="text-sm mb-2"><a href="" >Phone: +1 5589 55488 55</a></li>
-                <li><a href="">Email: info@example.com</a></li>
+      <!-- footer -->
+      <footer>
+        <section class="w-full">
+          <div
+            class="w-[90%] md:w-[70%] mx-auto flex flex-col md:flex-row justify-between text-[#444444] font-Roboto py-10"
+            data-aos="fade-left"
+          >
+            <ul class="mb-5 md:mb-0">
+              <li class="text-2xl font-bold text-[#5F687B] mb-4">eNno</li>
+              <li class="text-sm mb-2"><a href="">A108 Adam Street</a></li>
+              <li class="text-sm mb-4"><a href="">New York, NY 535022</a></li>
+              <li class="text-sm mb-2">
+                <a href="">Phone: +1 5589 55488 55</a>
+              </li>
+              <li><a href="">Email: info@example.com</a></li>
+            </ul>
+            <div class="flex flex-col md:flex-row gap-20">
+              <ul>
+                <li class="font-bold text-[#5F687B] mb-4">Useful Links</li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img
+                    src="/images/caret-right-sm-svgrepo-com (2).svg"
+                    alt=""
+                  />
+                  <a href="">Home</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img
+                    src="/images/caret-right-sm-svgrepo-com (2).svg"
+                    alt=""
+                  />
+                  <a href="">About us</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img
+                    src="/images/caret-right-sm-svgrepo-com (2).svg"
+                    alt=""
+                  />
+                  <a href="">Services</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img
+                    src="/images/caret-right-sm-svgrepo-com (2).svg"
+                    alt=""
+                  />
+                  <a href="">Terms of service</a>
+                </li>
               </ul>
-              <div class="flex flex-col md:flex-row gap-20">
-                  <ul>
-                    <li class=" font-bold text-[#5F687B] mb-4">Useful Links</li>
-                    <li  class="text-sm mb-4 flex items-center" >
-                      <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Home</a></li>
-                    <li class="text-sm mb-4 flex items-center" >
-                      <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">About us</a></li>
-                    <li class="text-sm mb-4 flex items-center" >
-                      <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Services</a></li>
-                    <li  class="text-sm mb-4 flex items-center">
-                      <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Terms of service</a></li>
 
-                  </ul>
-
-                  <ul>
-                    <li class=" font-bold text-[#5F687B] mb-4">Our Services</li>
-                    <li  class="text-sm mb-4 flex items-center">
-                      <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Web Design</a></li>
-                    <li  class="text-sm mb-4 flex items-center">
-                      <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Web Development</a></li>
-                    <li  class="text-sm mb-4 flex items-center">
-                      <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Product Management</a></li>
-                    <li  class="text-sm mb-4 flex items-center">
-                      <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="">
-                      <a href="">Marketing</a></li>
-
-                  </ul>
-                  <ul>
-                    <li class=" font-bold text-[#5F687B] mb-4">Follow Us</li>
-                    <li class="text-sm mb-4"><a href=""></a>Cras fermentum odio eu feugiat lide par naso tierra videa <br> magna derita valies</li>
-                    <li class="flex gap-2">
-                      <i class="fa-brands fa-x-twitter p-3 rounded-full border-2"></i>
-                      <i class="fa-brands fa-facebook p-3 rounded-full border-2"></i>
-                      <i class="fa-brands fa-instagram p-3 rounded-full border-2"></i>
-                      <i class="fa-brands fa-linkedin p-3 rounded-full border-2"></i>
-                    </li>
-                
-                  </ul>
-              </div>
-              <hr>
+              <ul>
+                <li class="font-bold text-[#5F687B] mb-4">Our Services</li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                  <a href="">Web Design</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                  <a href="">Web Development</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                  <a href="">Product Management</a>
+                </li>
+                <li class="text-sm mb-4 flex items-center">
+                  <img
+                    src="/images/caret-right-sm-svgrepo-com (2).svg"
+                    alt=""
+                  />
+                  <a href="">Marketing</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="font-bold text-[#5F687B] mb-4">Follow Us</li>
+                <li class="text-sm mb-4">
+                  <a href=""></a>Cras fermentum odio eu feugiat lide par naso
+                  tierra videa <br />
+                  magna derita valies
+                </li>
+                <li class="flex gap-2">
+                  <i
+                    class="fa-brands fa-x-twitter p-3 rounded-full border-2"
+                  ></i>
+                  <i
+                    class="fa-brands fa-facebook p-3 rounded-full border-2"
+                  ></i>
+                  <i
+                    class="fa-brands fa-instagram p-3 rounded-full border-2"
+                  ></i>
+                  <i
+                    class="fa-brands fa-linkedin p-3 rounded-full border-2"
+                  ></i>
+                </li>
+              </ul>
             </div>
-          </section>
-          <section class="w-full">
-            <div class="w-[90%] md:w-[70%] mx-auto text-sm text-center pb-8">
-                <p>&copy; Copyright <span class="font-bold mb-6">eNno</span> All Rights Reserved</p>
-                <p>Designed by <span class="text-[#00bb6e]">BootstrapMade</span> Distributed by <span class="text-[#00bb6e]">ThemeWagon</span> </p>
-            </div>
-          </section>
-
-        
-        </footer>
+            <hr />
+          </div>
+        </section>
+        <section class="w-full">
+          <div class="w-[90%] md:w-[70%] mx-auto text-sm text-center pb-8">
+            <p>
+              &copy; Copyright <span class="font-bold mb-6">eNno</span> All
+              Rights Reserved
+            </p>
+            <p>
+              Designed by
+              <span class="text-[#00bb6e]">BootstrapMade</span> Distributed by
+              <span class="text-[#00bb6e]">ThemeWagon</span>
+            </p>
+          </div>
+        </section>
+      </footer>
     </div>
-
+    <!-- animation init -->
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+      });
+    </script>
   </body>
 </html>
