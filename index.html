@@ -24,1107 +24,1064 @@
   </head>
 
   <body class="w-screen overflow-x-hidden font-raleway">
-    <div class="w-full mx-auto">
-      <header>
-        <nav class="text-[#5F687B] w-[100%] py-8 fixed inset-x-0 z-10 bg-white">
-          <div
-            class="w-[90%] md:w-[70%] mx-auto flex justify-between items-center"
-          >
-            <div>
-              <p class="text-3xl font-bold">eNno</p>
-            </div>
-            <ul class="hidden md:flex items-center gap-8">
-              <li><a href="#home" class="hover:text-[#00bb6e]">Home</a></li>
-              <li><a href="#about" class="hover:text-[#00bb6e]">About</a></li>
-              <li>
-                <a href="#services" class="hover:text-[#00bb6e]">Service</a>
-              </li>
-              <li>
-                <a href="#portfolio" class="hover:text-[#00bb6e]">Portfolio</a>
-              </li>
-              <li><a href="#team" class="hover:text-[#00bb6e]">Team</a></li>
-              <li class="flex items-center gap-1 hover:text-[#00bb6e]">
-                <a href="#dropdown"> Dropdown</a>
-                <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
-              </li>
-              <li>
-                <a href="#contact" class="hover:text-[#00bb6e]">Contact</a>
-              </li>
-              <li>
-                <a
-                  href=""
-                  class="bg-[#00bb6e] px-4 py-2 text-sm text-white rounded-[50px]"
-                  >Get Started</a
-                >
-              </li>
-            </ul>
+    <!-- <div class="w-[100vw] mx-auto border-2 border-red-400"> -->
+    <header>
+      <nav class="text-[#5F687B] mx-auto py-8 fixed inset-x-0 z-10 bg-white">
+        <div
+          class="w-[90%] md:px-0 md:w-[90%] 2xl:w-[70%] mx-auto flex justify-between items-center"
+        >
+          <div>
+            <p class="text-3xl font-bold">eNno</p>
           </div>
-        </nav>
-      </header>
-
-      <main>
-        <!-- home -->
-        <section class="w-full" id="home">
-          <div
-            class="w-[90%] md:w-[70%] mx-auto flex flex-col-reverse md:flex-row items-center justify-between max-h-screen md:max-h-[70vh] mb-4 min-h-screen"
-          >
-            <div class="w-[90%] text-center md:text-left md:w-2/4">
-              <h1 class="text-5xl font-bold text-[#5F687B] mb-8">
-                Elegant and creative solutions
-              </h1>
-              <p class="text-[#afbccc] text-xl mb-8">
-                We are team of talented designers making websites with Bootstrap
-              </p>
-              <div class="flex flex-col md:flex-row items-center gap-4">
-                <a
-                  href=""
-                  class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-full md:w-fit"
-                  >Get Started</a
-                >
-                <span
-                  class="flex gap-2 items-center text-[15px] text-[#444444] font-semibold hover:text-[#00bb6e]"
-                >
-                  <img
-                    src="/images/play-button-simple-svgrepo-com.svg"
-                    alt=""
-                  />Watch video
-                </span>
-              </div>
-            </div>
-            <div class="2/4">
-              <img
-                src="/images/hero-img.png"
-                alt=""
-                width="636"
-                class="animate"
-              />
-            </div>
-          </div>
-        </section>
-
-        <!-- 3 cards -->
-        <section class="w-full">
-          <div
-            class="w-[90%] md:w-[70%] mx-auto grid md:grid-cols-3 mb-32 gap-8"
-          >
-            <div
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
-              data-aos="fade-up"
-            >
-              <img src="/images/heartrate.png" alt="" class="w-12" />
-              <h3 class="text-xl font-bold hover:text-[#00bb6e]">Lore Ipsum</h3>
-              <p class="leading-6 text-sm">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
-              </p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="300"
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
-            >
-              <img src="/images/4pointers.png" alt="" class="w-12" />
-              <h3 class="text-xl font-bold hover:text-[#00bb6e]">
-                Sed ut perspici
-              </h3>
-              <p class="leading-6 text-sm">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
-              </p>
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-delay="600"
-              class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
-            >
-              <img src="/images/battery.png" alt="" class="w-12" />
-              <h3 class="text-xl font-bold hover:text-[#00bb6e]">
-                Magni Dolores
-              </h3>
-              <p class="leading-6 text-sm">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- aboout -->
-
-        <section class="w-full" id="about">
-          <div class="w-[90%] md:w-[70%] mx-auto relative">
-            <h2
-              class="font-bold text-[32px] mb-5 text-center text-[#5F687B]"
-              data-aos="fade-up"
-            >
-              About
-              <span
-                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
-                >ABOUT US</span
+          <ul class="hidden md:flex items-center gap-8">
+            <li><a href="#home" class="hover:text-[#00bb6e]">Home</a></li>
+            <li><a href="#about" class="hover:text-[#00bb6e]">About</a></li>
+            <li>
+              <a href="#services" class="hover:text-[#00bb6e]">Service</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="hover:text-[#00bb6e]">Portfolio</a>
+            </li>
+            <li><a href="#team" class="hover:text-[#00bb6e]">Team</a></li>
+            <li class="flex items-center gap-1 hover:text-[#00bb6e]">
+              <a href="#dropdown"> Dropdown</a>
+              <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-[#00bb6e]">Contact</a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="bg-[#00bb6e] px-4 py-2 text-sm text-white rounded-[50px]"
+                >Get Started</a
               >
-            </h2>
-            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- home -->
+      <section class="w-full" id="home">
+        <div
+          class="w-[100%] md:w-[90%] 2xl:w-[70%] mx-auto flex flex-col-reverse md:flex-row md:items-center md:justify-between mb-8 md:mb-4 min-h-[90vh] md:min-h-screen"
+        >
+          <div class="w-[90%] mx-auto mt-4 text-left md:w-2/4">
+            <h1
+              class="text-3xl md:text-5xl font-bold text-[#5F687B] mb-4 md:mb-8"
+            >
+              Elegant and creative solutions
+            </h1>
+            <p class="text-[#afbccc] text-xl mb-4 md:mb-8">
+              We are team of talented designers making websites with Bootstrap
             </p>
-
-            <div
-              class="w-full flex flex-col md:flex-row justify-between space-y-12 items-center mb-20"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="w-[90%] mx-auto md:w-2/4 relative">
-                <img src="/images/about.png" alt="" class="w-[95%]" />
-                <a
-                  href=""
-                  class="text-white bg-[#00bb6e] w-16 h-16 flex items-center justify-center rounded-full absolute top-[40%] left-[40%] animate-pulse"
-                  ><i class="fa-solid fa-play"></i
-                ></a>
-              </div>
-              <div class="w-[90%] mx-auto flex flex-col gap-2 md:w-2/4">
-                <h1 class="text-[28px] font-bold text-[#5F687B]">
-                  Voluptatem dignissimos provident quasi corporis voluptates sit
-                  assumenda.
-                </h1>
-                <p class="italic text-[#444444] mb-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <span class="flex gap-2">
-                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
-
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </span>
-                <span class="flex gap-2 text-[#444444]">
-                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
-                  Duis aute irure dolor in reprehenderit in voluptate velit.
-                </span>
-                <span class="flex gap-2 text-[#444444]">
-                  <img src="/images/double-tick-svgrepo-com.svg" alt="" />
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate trideta
-                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                </span>
-                <span class="text-[#444444] mt-2"
-                  >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident</span
-                >
-              </div>
-            </div>
-            <!-- numbers -->
-            <div
-              class="w-[90%] md:w-[100%] mx-auto font-Roboto grid md:grid-cols-4 pb-10 space-y-8 md:space-y-0 place-items-center"
-              data-aos="flip-left"
-            >
-              <div>
-                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">232</h2>
-                <p clss="text-[15px] text-[#444444]">clients</p>
-              </div>
-              <div>
-                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">521</h2>
-                <p clss="text-[15px] text-[#444444]">Projects</p>
-              </div>
-              <div>
-                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">1453</h2>
-                <p clss="text-[15px] text-[#444444]">Hours of Support</p>
-              </div>
-              <div>
-                <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">32</h2>
-                <p clss="text-[15px] text-[#444444]">Workers</p>
-              </div>
-            </div>
-
-            <!-- <h2 class="text-3xl font-semibold absolute last:">ABOUT US</h2> -->
-          </div>
-        </section>
-
-        <!-- services -->
-        <section class="w-full bg-[#f9f9f9]" id="services">
-          <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
-            <h2
-              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
-              data-aos="fade-up"
-            >
-              SERVICES
-              <span
-                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
-                >SERVICES</span
+            <div class="flex items-center gap-4">
+              <a
+                href=""
+                class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit"
+                >Get Started</a
               >
-            </h2>
-            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-            <div class="grid md:grid-cols-3 gap-6 pb-12">
-              <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
-                data-aos="fade-up"
+              <span
+                class="flex gap-2 items-center text-[15px] text-[#444444] font-semibold hover:text-[#00bb6e]"
               >
                 <img
-                  src="/images/shapeonstreiods.jpg"
+                  src="/images/play-button-simple-svgrepo-com.svg"
                   alt=""
-                  class="w-[64px] rounded-lg"
+                />Watch video
+              </span>
+            </div>
+          </div>
+          <div class="w-[90%] md:w-2/4">
+            <img
+              src="/images/hero-img.png"
+              alt=""
+              width="636"
+              class="animate max-w-[100%]"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 cards -->
+      <section class="">
+        <div
+          class="w-[90%] md:w-[90%] 2xl:w-[70%] mx-auto grid md:grid-cols-3 mb-32 gap-8"
+        >
+          <div
+            class="w-[100%] md:w-full flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
+            data-aos="fade-up"
+          >
+            <img src="/images/heartrate.png" alt="" class="w-12" />
+            <h3 class="text-xl font-bold hover:text-[#00bb6e]">Lore Ipsum</h3>
+            <p class="leading-6 text-sm">
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
+          >
+            <img src="/images/4pointers.png" alt="" class="w-12" />
+            <h3 class="text-xl font-bold hover:text-[#00bb6e]">
+              Sed ut perspici
+            </h3>
+            <p class="leading-6 text-sm">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore
+            </p>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="600"
+            class="w-[90%] md:w-full mx-auto flex flex-col gap-4 text-[#5F687B] bg-[#f8f8f8] py-8 px-6 justify-between hover:-translate-y-4 color-change"
+          >
+            <img src="/images/battery.png" alt="" class="w-12" />
+            <h3 class="text-xl font-bold hover:text-[#00bb6e]">
+              Magni Dolores
+            </h3>
+            <p class="leading-6 text-sm">
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- aboout -->
+
+      <section class="w-full" id="about">
+        <div class="w-[90%] md:w-[70%] mx-auto relative">
+          <h2
+            class="font-bold text-[32px] mb-5 text-center text-[#5F687B]"
+            data-aos="fade-up"
+          >
+            About
+            <span
+              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
+              >ABOUT US</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+
+          <div
+            class="w-full flex flex-col md:flex-row justify-between space-y-12 items-center mb-20"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="w-[90%] mx-auto md:w-2/4 relative">
+              <img src="/images/about.png" alt="" class="w-[95%]" />
+              <a
+                href=""
+                class="text-white bg-[#00bb6e] w-16 h-16 flex items-center justify-center rounded-full absolute top-[40%] left-[40%] animate-pulse"
+                ><i class="fa-solid fa-play"></i
+              ></a>
+            </div>
+            <div class="w-[90%] mx-auto flex flex-col gap-2 md:w-2/4">
+              <h1 class="text-[28px] font-bold text-[#5F687B]">
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h1>
+              <p class="italic text-[#444444] mb-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="flex gap-2">
+                <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </span>
+              <span class="flex gap-2 text-[#444444]">
+                <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+                Duis aute irure dolor in reprehenderit in voluptate velit.
+              </span>
+              <span class="flex gap-2 text-[#444444]">
+                <img src="/images/double-tick-svgrepo-com.svg" alt="" />
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate trideta
+                storacalaperda mastiro dolore eu fugiat nulla pariatur.
+              </span>
+              <span class="text-[#444444] mt-2"
+                >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident</span
+              >
+            </div>
+          </div>
+          <!-- numbers -->
+          <div
+            class="w-[90%] md:w-[100%] mx-auto font-Roboto grid md:grid-cols-4 pb-10 space-y-8 md:space-y-0 place-items-center"
+            data-aos="flip-left"
+          >
+            <div>
+              <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">232</h2>
+              <p clss="text-[15px] text-[#444444]">clients</p>
+            </div>
+            <div>
+              <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">521</h2>
+              <p clss="text-[15px] text-[#444444]">Projects</p>
+            </div>
+            <div>
+              <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">1453</h2>
+              <p clss="text-[15px] text-[#444444]">Hours of Support</p>
+            </div>
+            <div>
+              <h2 class="font-bold text-5xl text-[#00bb6e] mb-2">32</h2>
+              <p clss="text-[15px] text-[#444444]">Workers</p>
+            </div>
+          </div>
+
+          <!-- <h2 class="text-3xl font-semibold absolute last:">ABOUT US</h2> -->
+        </div>
+      </section>
+
+      <!-- services -->
+      <section class="w-full bg-[#f9f9f9]" id="services">
+        <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
+          <h2
+            class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+            data-aos="fade-up"
+          >
+            SERVICES
+            <span
+              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[42%] -z-1 opacity-10"
+              >SERVICES</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+          <div class="grid md:grid-cols-3 gap-6 pb-12">
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+              data-aos-delay="900"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+              data-aos-delay="1200"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+
+            <div
+              class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+              data-aos="fade-up"
+              data-aos-delay="1500"
+            >
+              <img
+                src="/images/shapeonstreiods.jpg"
+                alt=""
+                class="w-[64px] rounded-lg"
+              />
+              <h3
+                class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+              >
+                Nesciunt Mete
+              </h3>
+              <p class="text-[#444444] text-sm">
+                Provident nihil minus qui consequatur non omnis maiores. Eos
+                accusantium minus dolores iure perferendis tempore et
+                consequatur
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+
+      <section class="fw-full" id="portfolio">
+        <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
+          <h2
+            class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+            data-aos="fade-up"
+          >
+            Portfolio
+            <span
+              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[41%] -z-1 opacity-10"
+              >PORTFOLIO</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+          <ul
+            class="w-[90%] mx-auto md:w-full justify-between md:space-x-6 flex items-center md:justify-center mb-4 font-bold"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <li class="hover:text-[#00bb6e]">ALL</li>
+            <li class="hover:text-[#00bb6e]">APP</li>
+            <li class="hover:text-[#00bb6e]">PRODUCT</li>
+            <li class="hover:text-[#00bb6e]">BRANDING</li>
+            <li class="hover:text-[#00bb6e]">BOOKS</li>
+          </ul>
+
+          <div
+            class="grid md:grid-cols-3 gap-6 pb-16"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <!-- product 1 -->
+            <div class="relative hovered">
+              <img src="/images/one.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 2 -->
+            <div class="relative hovered">
+              <img src="/images/two.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 3 -->
+            <div class="relative hovered">
+              <img src="/images/three.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 4 -->
+            <div class="relative hovered">
+              <img src="/images/four.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 5 -->
+            <div class="relative hovered">
+              <img src="/images/six.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 6 -->
+            <div class="relative hovered">
+              <img src="/images/seven.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 7 -->
+            <div class="relative hovered">
+              <img src="/images/eight.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 8 -->
+            <div class="relative hovered">
+              <img src="/images/nine.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 9 -->
+            <div class="relative hovered">
+              <img src="/images/ten.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 10 -->
+            <div class="relative hovered">
+              <img src="/images/one.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- product 11 -->
+            <div class="relative hovered">
+              <img src="/images/two.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- product 12 -->
+            <div class="relative hovered">
+              <img src="/images/six.jpg" alt="" />
+              <div
+                class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-2">
+                  <p class="text-lg font-medium">App1</p>
+                  <p class="text-sm">Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="flex gap-2">
+                  <img src="/images/search-plus-svgrepo-com.svg" alt="" />
+                  <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- testiomial section -->
+
+      <section class="w-full">
+        <div class="w-[90%] md:w-[70%] mx-auto pt-20 relative mb-56">
+          <h2
+            class="text-[32px] font-bold text-[#5F687B] text-center"
+            data-aos="fade-up"
+          >
+            TESTIMONIALS
+            <span
+              class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[53%] left-[38%] -z-1 opacity-10"
+              >TESTIMONIALS</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-14">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+          <div class="grid md:grid-cols-3 gap-6 space-y-32 md:space-y-0">
+            <div class="relative" data-aos="fade-left">
+              <div class="bg-[#f3f3f3] p-4 pb-20">
+                <i
+                  class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
+                ></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                veniam tempor noster veniam sunt culpa nulla illum cillum fugiat
+                legam esse veniam culpa fore nisi cillum quid.
+                <i
+                  class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
+                ></i>
+              </div>
+              <div class="absolute top-[11rem] left-[8%]">
+                <img
+                  src="/images/saul.jpg"
+                  alt=""
+                  class="w-[90px] aspect-square rounded-full"
                 />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                <h3 class="text-lg font-bold text-[#5f687b]">Saul Goodman</h3>
+                <p class="text-sm text-[#444444]">Ceo & Founder</p>
+              </div>
+            </div>
+            <div class="relative" data-aos="fade-left">
+              <div class="bg-[#f3f3f3] p-4 pb-20">
+                <i
+                  class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
+                ></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                veniam tempor noster veniam sunt culpa nulla illum cillum fugiat
+                legam esse veniam culpa fore nisi cillum quid.
+                <i
+                  class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
+                ></i>
+              </div>
+              <div class="absolute top-[11rem] left-[8%]">
+                <img
+                  src="/images/Matt.jpg"
+                  alt=""
+                  class="w-[80px] aspect-square rounded-full"
+                />
+                <h3 class="text-lg font-bold text-[#5f687b]">Matt Brandon</h3>
+                <p class="text-sm text-[#444444]">Freelancer</p>
+              </div>
+            </div>
+
+            <div class="relative" data-aos="fade-left">
+              <div class="bg-[#f3f3f3] p-4 pb-20">
+                <i
+                  class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
+                ></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                veniam tempor noster veniam sunt culpa nulla illum cillum fugiat
+                legam esse veniam culpa fore nisi cillum quid.
+                <i
+                  class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
+                ></i>
+              </div>
+              <div class="absolute top-[11rem] left-[8%]">
+                <img
+                  src="/images/Sarah.jpg"
+                  alt=""
+                  class="w-[90px] aspect-square rounded-full"
+                />
+                <h3 class="text-lg font-bold text-[#5f687b]">Sarah Wilson</h3>
+                <p class="text-sm text-[#444444]">Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- call to action -->
+
+      <section class="w-full bg-[#00bb6e] font-Roboto mb-32">
+        <div
+          class="w-[90%] md:w-[56%] mx-auto py-16 flex flex-col gap-4 text-white items-center text-center"
+          data-aos="zoom-in"
+        >
+          <h3 class="text-[28px] font-bold">Call To Action</h3>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          <button class="border-2 border-white rounded-3xl px-12 py-3">
+            Call To Action
+          </button>
+        </div>
+      </section>
+
+      <!-- team -->
+
+      <section class="w-full" id="team">
+        <div class="w-[90%] md:w-[70%] mx-auto relative mb-44">
+          <h2
+            class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+            data-aos="fade-up"
+          >
+            TEAM
+            <span
+              class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
+              >SECTION TITLE</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+
+          <div class="grid md:grid-cols-3 gap-6 space-y-20 md:space-y-0">
+            <div class="relative" data-aos="fade-up">
+              <img src="/images/team-1.jpg" alt="" />
+              <div
+                class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-1">
+                  <p class="text-lg font-medium">walter White</p>
+                  <hr class="h-[20px] w-[50px] text-black" />
+                  <p class="text-sm">Chief Executive Officer</p>
+                </div>
+                <div class="flex gap-2 self-end">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+            <div class="relative" data-aos="fade-up" data-aos-delay="300">
+              <img src="/images/team-2.jpg" alt="" />
+              <div
+                class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-1">
+                  <p class="text-lg font-medium">Sarah Jhonson</p>
+                  <hr class="h-[20px] w-[50px] text-black" />
+                  <p class="text-sm">Product Manager</p>
+                </div>
+                <div class="flex gap-2 self-end">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+            <div class="relative" data-aos="fade-up" data-aos-delay="600">
+              <img src="/images/team-3.jpg" alt="" />
+              <div
+                class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
+              >
+                <div class="flex flex-col text-[#444444] gap-1">
+                  <p class="text-lg font-medium">william Aderson</p>
+                  <hr class="h-[20px] w-[50px] text-black" />
+                  <p class="text-sm">CTO</p>
+                </div>
+                <div class="flex gap-2 self-end">
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT  -->
+
+      <section class="w-full bg-white" id="contact md:max-h-[70vh]">
+        <div class="w-[90%] md:w-[70%] mx-auto relative font-Roboto pb-16">
+          <h2
+            class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
+            data-aos="fade-up"
+          >
+            CONTACT
+            <span
+              class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
+              >SECTION TITLE</span
+            >
+          </h2>
+          <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+
+          <div class="flex flex-col md:flex-row gap-8 text-[#5F687B]">
+            <div class="w-[90%] mx-auto md:w-[45%] bg-white p-8 shadow-md">
+              <div class="flex items-center gap-4 mb-8" data-aos="fade-up">
+                <div
+                  class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                 >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
+                  <i
+                    class="fa-regular fa-compass text-[#9cdca9] hover:text-white"
+                  ></i>
+                </div>
+
+                <p class="leading-8 text-lg font-bold">
+                  Address
+                  <br />
+                  <span class="text-sm font-normal"
+                    >A108 Adam Street, New York, NY 535022</span
+                  >
                 </p>
               </div>
-
               <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                class="flex items-center gap-4 mb-8"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <img
-                  src="/images/shapeonstreiods.jpg"
-                  alt=""
-                  class="w-[64px] rounded-lg"
-                />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                <div
+                  class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                 >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
+                  <i
+                    class="fa-solid fa-phone text-[#9cdca9] hover:text-white"
+                  ></i>
+                </div>
+                <p class="leading-8 text-lg font-bold">
+                  Call Us
+                  <br />
+                  <span class="text-sm font-normal">+1 5589 55488 55</span>
                 </p>
               </div>
-
               <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
+                class="flex items-center gap-4 mb-8"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
-                <img
-                  src="/images/shapeonstreiods.jpg"
-                  alt=""
-                  class="w-[64px] rounded-lg"
-                />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
+                <div
+                  class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
                 >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
+                  <i
+                    class="fa-solid fa-envelope text-[#9cdca9] hover:text-white"
+                  ></i>
+                </div>
+                <p class="leading-8 text-lg font-bold">
+                  Email Us
+                  <br />
+                  <span class="text-sm font-normal">info@example.com</span>
                 </p>
               </div>
-
-              <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
-                data-aos="fade-up"
-                data-aos-delay="900"
-              >
-                <img
-                  src="/images/shapeonstreiods.jpg"
-                  alt=""
-                  class="w-[64px] rounded-lg"
-                />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
-                >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
-                </p>
-              </div>
-
-              <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
-                data-aos="fade-up"
-                data-aos-delay="1200"
-              >
-                <img
-                  src="/images/shapeonstreiods.jpg"
-                  alt=""
-                  class="w-[64px] rounded-lg"
-                />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
-                >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
-                </p>
-              </div>
-
-              <div
-                class="border-2 hover:border-[#00bb6e] bg-white border-gray-200 flex flex-col gap-4 items-center py-14 px-2 text-center"
-                data-aos="fade-up"
-                data-aos-delay="1500"
-              >
-                <img
-                  src="/images/shapeonstreiods.jpg"
-                  alt=""
-                  class="w-[64px] rounded-lg"
-                />
-                <h3
-                  class="text-[22px] font-bold text-[#5F687B] hover:text-[#00bb6e]"
-                >
-                  Nesciunt Mete
-                </h3>
-                <p class="text-[#444444] text-sm">
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur
-                </p>
+              <div data-aos="fade-up" data-aos-delay="900">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6683221.322733309!2d-88.2987726789892!3d35.12439449370824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdown%20town%20conference%20center!5e0!3m2!1sen!2sng!4v1740651669533!5m2!1sen!2sng"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="w-full h-[30vh]"
+                ></iframe>
               </div>
             </div>
-          </div>
-        </section>
 
-        <!-- portfolio -->
-
-        <section class="fw-full" id="portfolio">
-          <div class="w-[90%] md:w-[70%] mx-auto pt-24 relative">
-            <h2
-              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
-              data-aos="fade-up"
-            >
-              Portfolio
-              <span
-                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[41%] -z-1 opacity-10"
-                >PORTFOLIO</span
-              >
-            </h2>
-            <p class="text-[#444444] text-center mb-10" data-aos="fade-up">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-            <ul
-              class="w-[90%] mx-auto md:w-full justify-between md:space-x-6 flex items-center md:justify-center mb-4 font-bold"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <li class="hover:text-[#00bb6e]">ALL</li>
-              <li class="hover:text-[#00bb6e]">APP</li>
-              <li class="hover:text-[#00bb6e]">PRODUCT</li>
-              <li class="hover:text-[#00bb6e]">BRANDING</li>
-              <li class="hover:text-[#00bb6e]">BOOKS</li>
-            </ul>
-
-            <div
-              class="grid md:grid-cols-3 gap-6 pb-16"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <!-- product 1 -->
-              <div class="relative hovered">
-                <img src="/images/one.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 2 -->
-              <div class="relative hovered">
-                <img src="/images/two.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 3 -->
-              <div class="relative hovered">
-                <img src="/images/three.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 4 -->
-              <div class="relative hovered">
-                <img src="/images/four.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 5 -->
-              <div class="relative hovered">
-                <img src="/images/six.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 6 -->
-              <div class="relative hovered">
-                <img src="/images/seven.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 7 -->
-              <div class="relative hovered">
-                <img src="/images/eight.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 8 -->
-              <div class="relative hovered">
-                <img src="/images/nine.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 9 -->
-              <div class="relative hovered">
-                <img src="/images/ten.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 10 -->
-              <div class="relative hovered">
-                <img src="/images/one.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-
-              <!-- product 11 -->
-              <div class="relative hovered">
-                <img src="/images/two.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- product 12 -->
-              <div class="relative hovered">
-                <img src="/images/six.jpg" alt="" />
-                <div
-                  class="invisible w-[90%] shadow-md flex items-center justify-between bg-white p-3 absolute top-[65%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-2">
-                    <p class="text-lg font-medium">App1</p>
-                    <p class="text-sm">
-                      Lorem ipsum dolor sit amet consectetur
-                    </p>
-                  </div>
-                  <div class="flex gap-2">
-                    <img src="/images/search-plus-svgrepo-com.svg" alt="" />
-                    <img src="images/link-horizontal-svgrepo-com.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- testiomial section -->
-
-        <section class="w-full">
-          <div class="w-[90%] md:w-[70%] mx-auto pt-20 relative mb-56">
-            <h2
-              class="text-[32px] font-bold text-[#5F687B] text-center"
-              data-aos="fade-up"
-            >
-              TESTIMONIALS
-              <span
-                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[53%] left-[38%] -z-1 opacity-10"
-                >TESTIMONIALS</span
-              >
-            </h2>
-            <p class="text-[#444444] text-center mb-14">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-            <div class="grid md:grid-cols-3 gap-6 space-y-32 md:space-y-0">
-              <div class="relative" data-aos="fade-left">
-                <div class="bg-[#f3f3f3] p-4 pb-20">
-                  <i
-                    class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
-                  ></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam sunt culpa nulla illum cillum
-                  fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i
-                    class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
-                  ></i>
-                </div>
-                <div class="absolute top-[11rem] left-[8%]">
-                  <img
-                    src="/images/saul.jpg"
-                    alt=""
-                    class="w-[90px] aspect-square rounded-full"
-                  />
-                  <h3 class="text-lg font-bold text-[#5f687b]">Saul Goodman</h3>
-                  <p class="text-sm text-[#444444]">Ceo & Founder</p>
-                </div>
-              </div>
-              <div class="relative" data-aos="fade-left">
-                <div class="bg-[#f3f3f3] p-4 pb-20">
-                  <i
-                    class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
-                  ></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam sunt culpa nulla illum cillum
-                  fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i
-                    class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
-                  ></i>
-                </div>
-                <div class="absolute top-[11rem] left-[8%]">
-                  <img
-                    src="/images/Matt.jpg"
-                    alt=""
-                    class="w-[80px] aspect-square rounded-full"
-                  />
-                  <h3 class="text-lg font-bold text-[#5f687b]">Matt Brandon</h3>
-                  <p class="text-sm text-[#444444]">Freelancer</p>
-                </div>
-              </div>
-
-              <div class="relative" data-aos="fade-left">
-                <div class="bg-[#f3f3f3] p-4 pb-20">
-                  <i
-                    class="fa-solid fa-quote-left text-[#00bb6e] text-[26px]"
-                  ></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
-                  veniam tempor noster veniam sunt culpa nulla illum cillum
-                  fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i
-                    class="fa-solid fa-quote-right text-[#00bb6e] text-[26px] font-medium"
-                  ></i>
-                </div>
-                <div class="absolute top-[11rem] left-[8%]">
-                  <img
-                    src="/images/Sarah.jpg"
-                    alt=""
-                    class="w-[90px] aspect-square rounded-full"
-                  />
-                  <h3 class="text-lg font-bold text-[#5f687b]">Sarah Wilson</h3>
-                  <p class="text-sm text-[#444444]">Designer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- call to action -->
-
-        <section class="w-full bg-[#00bb6e] font-Roboto mb-32">
-          <div
-            class="w-[90%] md:w-[56%] mx-auto py-16 flex flex-col gap-4 text-white items-center text-center"
-            data-aos="zoom-in"
-          >
-            <h3 class="text-[28px] font-bold">Call To Action</h3>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
-            <button class="border-2 border-white rounded-3xl px-12 py-3">
-              Call To Action
-            </button>
-          </div>
-        </section>
-
-        <!-- team -->
-
-        <section class="w-full" id="team">
-          <div class="w-[90%] md:w-[70%] mx-auto relative mb-44">
-            <h2
-              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
-              data-aos="fade-up"
-            >
-              TEAM
-              <span
-                class="hidden md:block font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
-                >SECTION TITLE</span
-              >
-            </h2>
-            <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-
-            <div class="grid md:grid-cols-3 gap-6 space-y-20 md:space-y-0">
-              <div class="relative" data-aos="fade-up">
-                <img src="/images/team-1.jpg" alt="" />
-                <div
-                  class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-1">
-                    <p class="text-lg font-medium">walter White</p>
-                    <hr class="h-[20px] w-[50px] text-black" />
-                    <p class="text-sm">Chief Executive Officer</p>
-                  </div>
-                  <div class="flex gap-2 self-end">
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="relative" data-aos="fade-up" data-aos-delay="300">
-                <img src="/images/team-2.jpg" alt="" />
-                <div
-                  class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-1">
-                    <p class="text-lg font-medium">Sarah Jhonson</p>
-                    <hr class="h-[20px] w-[50px] text-black" />
-                    <p class="text-sm">Product Manager</p>
-                  </div>
-                  <div class="flex gap-2 self-end">
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="relative" data-aos="fade-up" data-aos-delay="600">
-                <img src="/images/team-3.jpg" alt="" />
-                <div
-                  class="w-[90%] shadow-md flex justify-between bg-white p-3 absolute top-[85%] left-[5%]"
-                >
-                  <div class="flex flex-col text-[#444444] gap-1">
-                    <p class="text-lg font-medium">william Aderson</p>
-                    <hr class="h-[20px] w-[50px] text-black" />
-                    <p class="text-sm">CTO</p>
-                  </div>
-                  <div class="flex gap-2 self-end">
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- CONTACT  -->
-
-        <section class="w-full bg-white" id="contact md:max-h-[70vh]">
-          <div class="w-[90%] md:w-[70%] mx-auto relative font-Roboto pb-16">
-            <h2
-              class="text-[32px] font-bold text-[#5F687B] text-center mb-4"
-              data-aos="fade-up"
-            >
-              CONTACT
-              <span
-                class="invisible md:visible font-Roboto text-[48px] font-bold tracking- absolute -top-[50%] left-[38%] -z-1 opacity-10"
-                >SECTION TITLE</span
-              >
-            </h2>
-            <p class="text-[#444444] text-center mb-14" data-aos="fade-up">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-
-            <div class="flex flex-col md:flex-row gap-8 text-[#5F687B]">
-              <div class="w-[90%] mx-auto md:w-[45%] bg-white p-8 shadow-md">
-                <div class="flex items-center gap-4 mb-8" data-aos="fade-up">
-                  <div
-                    class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
-                  >
-                    <i
-                      class="fa-regular fa-compass text-[#9cdca9] hover:text-white"
-                    ></i>
-                  </div>
-
-                  <p class="leading-8 text-lg font-bold">
-                    Address
-                    <br />
-                    <span class="text-sm font-normal"
-                      >A108 Adam Street, New York, NY 535022</span
-                    >
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-4 mb-8"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <div
-                    class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
-                  >
-                    <i
-                      class="fa-solid fa-phone text-[#9cdca9] hover:text-white"
-                    ></i>
-                  </div>
-                  <p class="leading-8 text-lg font-bold">
-                    Call Us
-                    <br />
-                    <span class="text-sm font-normal">+1 5589 55488 55</span>
-                  </p>
-                </div>
-                <div
-                  class="flex items-center gap-4 mb-8"
-                  data-aos="fade-up"
-                  data-aos-delay="600"
-                >
-                  <div
-                    class="h-10 w-10 rounded-full bg-green-100 flex items-center justify-center hover:bg-[#00bb6e]"
-                  >
-                    <i
-                      class="fa-solid fa-envelope text-[#9cdca9] hover:text-white"
-                    ></i>
-                  </div>
-                  <p class="leading-8 text-lg font-bold">
-                    Email Us
-                    <br />
-                    <span class="text-sm font-normal">info@example.com</span>
-                  </p>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="900">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6683221.322733309!2d-88.2987726789892!3d35.12439449370824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdown%20town%20conference%20center!5e0!3m2!1sen!2sng!4v1740651669533!5m2!1sen!2sng"
-                    width="600"
-                    height="450"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                    class="w-full h-[30vh] oj"
-                  ></iframe>
-                </div>
-              </div>
-
-              <div class="w-[90%] mx-auto md:w-[55%] bg-white p-8 shadow-md">
-                <form
-                  class="flex flex-col"
-                  action="
+            <div class="w-[90%] mx-auto md:w-[55%] bg-white p-8 shadow-md">
+              <form
+                class="flex flex-col"
+                action="
                 "
+              >
+                <div
+                  class="flex flex-col md:flex-row md:items-center gap-8 mb-8"
                 >
-                  <div class="flex items-center gap-8 mb-8">
-                    <div
-                      class="flex flex-col space-y-4 w-1/2"
-                      data-aos="fade-up"
-                    >
-                      <label for="">Your Name</label>
-                      <input
-                        type="text"
-                        class="border-2 h-[35px] focus:outline-green-300 focus:outline-none"
-                      />
-                    </div>
-                    <div
-                      class="flex flex-col space-y-4 w-1/2"
-                      data-aos="fade-up"
-                    >
-                      <label for="">Your Your Email</label>
-                      <input
-                        type="text"
-                        class="border-2 h-[35px] focus:outline-green-300 focus:outline-none"
-                      />
-                    </div>
-                  </div>
                   <div
-                    class="mb-8 flex flex-col space-y-4"
+                    class="flex flex-col space-y-4 md:w-1/2"
                     data-aos="fade-up"
-                    data-aos-delay="300"
                   >
-                    <label for="">Subject</label>
+                    <label for="">Your Name</label>
                     <input
                       type="text"
-                      class="border-2 h-[35px] focus:outline-green-300 focus:outline-none"
+                      class="border-2 h-[35px] focus:outline-green-300 focus:border-none"
                     />
                   </div>
                   <div
-                    class="flex flex-col space-y-4 mb-8"
+                    class="flex flex-col space-y-4 md:w-1/2"
                     data-aos="fade-up"
-                    data-aos-delay="600"
                   >
-                    <label for="">Message</label>
-                    <textarea
-                      class="border-2 h-[25vh] focus:outline-green-300 focus:outline-none"
-                    ></textarea>
+                    <label for="">Your Your Email</label>
+                    <input
+                      type="text"
+                      class="border-2 h-[35px] focus:outline-green-300 focus:border-none"
+                    />
                   </div>
+                </div>
+                <div
+                  class="mb-8 flex flex-col space-y-4"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <label for="">Subject</label>
+                  <input
+                    type="text"
+                    class="border-2 h-[35px] focus:outline-green-300 focus:border-none"
+                  />
+                </div>
+                <div
+                  class="flex flex-col space-y-4 mb-8"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <label for="">Message</label>
+                  <textarea
+                    class="border-2 h-[25vh] focus:outline-green-300 focus:border-none"
+                  ></textarea>
+                </div>
 
-                  <button
-                    class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300"
-                    data-aos="fade-up"
-                    data-aos-delay="600"
-                  >
-                    Send message
-                  </button>
-                </form>
-              </div>
+                <button
+                  class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  Send message
+                </button>
+              </form>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!--sunscribe to news letter  -->
-        <section class="w-full bg-[#F9F9F9]">
-          <div class="w-[90%] mx-auto md:w-[70%] py-16" data-aos="fade-right">
-            <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
-              Join Our Newsletter
-            </h2>
-            <p class="text-[#444444] text-center mb-8">
-              Subscribe to our newsletter and receive the latest news about our
-              products and services!
-            </p>
-            <div class="w-3/5 mx-auto relative">
-              <input
-                type="text"
-                class="h-[35px] w-full bg-white rounded-2xl shadow-md"
-              />
+      <!--sunscribe to news letter  -->
+      <section class="w-full bg-[#F9F9F9]">
+        <div class="w-[90%] mx-auto md:w-[70%] py-16" data-aos="fade-right">
+          <h2 class="text-[32px] font-bold text-[#5F687B] text-center mb-4">
+            Join Our Newsletter
+          </h2>
+          <p class="text-[#444444] text-center mb-8">
+            Subscribe to our newsletter and receive the latest news about our
+            products and services!
+          </p>
+          <div class="w -full md:w-3/5 mx-auto relative">
+            <input
+              type="text"
+              class="h-[35px] w-full bg-white rounded-2xl shadow-md mb-4"
+            />
 
-              <button
-                class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300 md:absolute right-0 -top-[10%]"
-              >
-                Subscribe
-              </button>
-            </div>
+            <button
+              class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px] w-fit self-center hover:bg-green-300 md:absolute right-0 -top-[10%]"
+            >
+              Subscribe
+            </button>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      <!-- footer -->
-      <footer>
-        <section class="w-full">
-          <div
-            class="w-[90%] md:w-[70%] mx-auto flex flex-col md:flex-row justify-between text-[#444444] font-Roboto py-10"
-            data-aos="fade-left"
-          >
-            <ul class="mb-5 md:mb-0">
-              <li class="text-2xl font-bold text-[#5F687B] mb-4">eNno</li>
-              <li class="text-sm mb-2"><a href="">A108 Adam Street</a></li>
-              <li class="text-sm mb-4"><a href="">New York, NY 535022</a></li>
-              <li class="text-sm mb-2">
-                <a href="">Phone: +1 5589 55488 55</a>
+    <!-- footer -->
+    <footer>
+      <section class="w-full">
+        <div
+          class="w-[90%] md:w-[70%] mx-auto flex flex-col md:flex-row justify-between text-[#444444] font-Roboto py-10"
+          data-aos="fade-left"
+        >
+          <ul class="mb-8 md:mb-0 md:w-4/12">
+            <li class="text-2xl font-bold text-[#5F687B] mb-4">eNno</li>
+            <li class="text-sm mb-2"><a href="">A108 Adam Street</a></li>
+            <li class="text-sm mb-4"><a href="">New York, NY 535022</a></li>
+            <li class="text-sm mb-2">
+              <a href="">Phone: +1 5589 55488 55</a>
+            </li>
+            <li><a href="">Email: info@example.com</a></li>
+          </ul>
+          <div class="flex flex-col md:flex-row gap-8 md:gap-20">
+            <ul>
+              <li class="font-bold text-[#5F687B] mb-4">Useful Links</li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Home</a>
               </li>
-              <li><a href="">Email: info@example.com</a></li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">About us</a>
+              </li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Services</a>
+              </li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Terms of service</a>
+              </li>
             </ul>
-            <div class="flex flex-col md:flex-row gap-20">
-              <ul>
-                <li class="font-bold text-[#5F687B] mb-4">Useful Links</li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img
-                    src="/images/caret-right-sm-svgrepo-com (2).svg"
-                    alt=""
-                  />
-                  <a href="">Home</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img
-                    src="/images/caret-right-sm-svgrepo-com (2).svg"
-                    alt=""
-                  />
-                  <a href="">About us</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img
-                    src="/images/caret-right-sm-svgrepo-com (2).svg"
-                    alt=""
-                  />
-                  <a href="">Services</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img
-                    src="/images/caret-right-sm-svgrepo-com (2).svg"
-                    alt=""
-                  />
-                  <a href="">Terms of service</a>
-                </li>
-              </ul>
 
-              <ul>
-                <li class="font-bold text-[#5F687B] mb-4">Our Services</li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
-                  <a href="">Web Design</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
-                  <a href="">Web Development</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
-                  <a href="">Product Management</a>
-                </li>
-                <li class="text-sm mb-4 flex items-center">
-                  <img
-                    src="/images/caret-right-sm-svgrepo-com (2).svg"
-                    alt=""
-                  />
-                  <a href="">Marketing</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="font-bold text-[#5F687B] mb-4">Follow Us</li>
-                <li class="text-sm mb-4">
-                  <a href=""></a>Cras fermentum odio eu feugiat lide par naso
-                  tierra videa <br />
-                  magna derita valies
-                </li>
-                <li class="flex gap-2">
-                  <i
-                    class="fa-brands fa-x-twitter p-3 rounded-full border-2"
-                  ></i>
-                  <i
-                    class="fa-brands fa-facebook p-3 rounded-full border-2"
-                  ></i>
-                  <i
-                    class="fa-brands fa-instagram p-3 rounded-full border-2"
-                  ></i>
-                  <i
-                    class="fa-brands fa-linkedin p-3 rounded-full border-2"
-                  ></i>
-                </li>
-              </ul>
-            </div>
-            <hr />
+            <ul>
+              <li class="font-bold text-[#5F687B] mb-4">Our Services</li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Web Design</a>
+              </li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Web Development</a>
+              </li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Product Management</a>
+              </li>
+              <li class="text-sm mb-4 flex items-center">
+                <img src="/images/caret-right-sm-svgrepo-com (2).svg" alt="" />
+                <a href="">Marketing</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="font-bold text-[#5F687B] mb-4">Follow Us</li>
+              <li class="text-sm mb-4">
+                <a href=""></a>Cras fermentum odio eu feugiat lide par naso
+                tierra videa <br />
+                magna derita valies
+              </li>
+              <li class="flex gap-2 mb-4">
+                <i class="fa-brands fa-x-twitter p-3 rounded-full border-2"></i>
+                <i class="fa-brands fa-facebook p-3 rounded-full border-2"></i>
+                <i class="fa-brands fa-instagram p-3 rounded-full border-2"></i>
+                <i class="fa-brands fa-linkedin p-3 rounded-full border-2"></i>
+              </li>
+            </ul>
           </div>
-        </section>
-        <section class="w-full">
-          <div class="w-[90%] md:w-[70%] mx-auto text-sm text-center pb-8">
-            <p>
-              &copy; Copyright <span class="font-bold mb-6">eNno</span> All
-              Rights Reserved
-            </p>
-            <p>
-              Designed by
-              <span class="text-[#00bb6e]">BootstrapMade</span> Distributed by
-              <span class="text-[#00bb6e]">ThemeWagon</span>
-            </p>
-          </div>
-        </section>
-      </footer>
-    </div>
+          <hr />
+        </div>
+      </section>
+      <section class="w-full">
+        <div class="w-[90%] md:w-[70%] mx-auto text-sm text-center pb-8">
+          <p>
+            &copy; Copyright <span class="font-bold mb-6">eNno</span> All Rights
+            Reserved
+          </p>
+          <p>
+            Designed by
+            <span class="text-[#00bb6e]">BootstrapMade</span> Distributed by
+            <span class="text-[#00bb6e]">ThemeWagon</span>
+          </p>
+        </div>
+      </section>
+    </footer>
+    <!-- </div> -->
     <!-- animation init -->
     <script>
       AOS.init({
