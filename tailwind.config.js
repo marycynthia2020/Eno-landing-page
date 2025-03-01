@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         raleway: ["raleway", "serif"],
         Roboto: ["Roboto", "serif"],
+        ubuntu: ["Ubuntu", "serif"],
       },
       animation: {
         bounceSlow: " bounce 15s infinite",

@@ -24,3 +24,7 @@
 .color-change:hover h3 {
   color: #00bb6e;
 }
+
+html {
+  overflow-x: hidden;
+}
