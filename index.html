@@ -24,43 +24,116 @@
   </head>
 
   <body class="w-screen overflow-x-hidden font-Roboto">
-    <div class="w-full border-2 mx-auto border-red-400">
+    <div id="container" class="w-full mx-auto relative">
       <header>
         <nav
-          class="text-[#5F687B] w-[100%] mx-auto fixed inset-x-0 z-10 bg-white border-2 border-green-800"
+          class="text-[#5F687B] w-[100%] mx-auto z-10 shadow-sm bg-white fixed inset-x-0"
         >
           <div
-            class="w-[90%] 2xl:w-[70%] max-w-[1440px] mx-auto flex justify-between items-center py-8"
+            class="w-[90%] 2xl:w-[70%] max-w-[1440px] mx-auto flex justify-between items-center py-8 "
           >
             <div>
               <p class="text-3xl font-bold font-raleway">eNno</p>
             </div>
-            <ul class="hidden md:flex items-center gap-8 font-ubuntu">
-              <li><a href="#home" class="hover:text-[#00bb6e]">Home</a></li>
-              <li><a href="#about" class="hover:text-[#00bb6e]">About</a></li>
+            <ul class="flex items-center gap-8 font-ubuntu">
               <li>
-                <a href="#services" class="hover:text-[#00bb6e]">Service</a>
+                <a href="#home" class="hidden md:block hover:text-[#00bb6e]"
+                  >Home</a
+                >
               </li>
               <li>
-                <a href="#portfolio" class="hover:text-[#00bb6e]">Portfolio</a>
+                <a href="#about" class="hidden md:block hover:text-[#00bb6e]"
+                  >About</a
+                >
               </li>
-              <li><a href="#team" class="hover:text-[#00bb6e]">Team</a></li>
-              <li class="flex items-center gap-1 hover:text-[#00bb6e]">
+              <li>
+                <a href="#services" class="hidden md:block hover:text-[#00bb6e]"
+                  >Service</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="hidden md:block hover:text-[#00bb6e]"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#team" class="hidden md:block hover:text-[#00bb6e]"
+                  >Team</a
+                >
+              </li>
+              <li
+                class="hidden md:flex items-center gap-1 hover:text-[#00bb6e]"
+              >
                 <a href="#dropdown"> Dropdown</a>
                 <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
               </li>
               <li>
-                <a href="#contact" class="hover:text-[#00bb6e]">Contact</a>
+                <a href="#contact" class="hidden md:block hover:text-[#00bb6e]"
+                  >Contact</a
+                >
               </li>
-              <li>
+              <li class="hidden md:block">
                 <a
                   href=""
-                  class="bg-[#00bb6e] px-5 py-3 text-sm text-white rounded-[50px]"
+                  class="bg-[#00bb6e] py-2 px-2 md:px-5 md:py-3 text-sm text-white rounded-[50px]"
                   >Get Started</a
                 >
               </li>
-            </ul>
+              <li id="hambuger-holder" class=" md:hidden text-2xl">
+                <i class="fa-solid fa-bars" ></i>
+              </li>
           </div>
+
+          <!-- mobile nav menu -->
+
+          <ul id="mobile-nav" class="hidden">
+            <li>
+              <a href="#home" class=" hover:text-[#00bb6e]"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class=" hover:text-[#00bb6e]"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#services" class=" hover:text-[#00bb6e]"
+                >Service</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class=" hover:text-[#00bb6e]"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#team" class=" hover:text-[#00bb6e]"
+                >Team</a
+              >
+            </li>
+            <li
+              class="flex items-center gap-1 hover:text-[#00bb6e]"
+            >
+              <a href="#dropdown"> Dropdown</a>
+              <img src="/images/caret-down-sm-svgrepo-com.svg" alt="" />
+            </li>
+            <li>
+              <a href="#contact" class=" hover:text-[#00bb6e]"
+                >Contact</a
+              >
+            </li>
+            <li class="">
+              <a
+                href=""
+                class="bg-[#00bb6e] px-5 py-3 text-sm text-white rounded-[50px]"
+                >Get Started</a
+              >
+            </li>
         </nav>
       </header>
 
@@ -82,7 +155,7 @@
               <div class="flex items-center gap-4">
                 <a
                   href=""
-                  class="bg-[#00bb6e] px-8 py-3 text-sm text-white rounded-[50px]"
+                  class="bg-[#00bb6e] px-6 py-3 text-sm text-white rounded-[50px]"
                   >Get Started</a
                 >
                 <span
@@ -926,7 +999,7 @@
                 </div>
                 <div data-aos="fade-up" data-aos-delay="900">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6683221.322733309!2d-88.2987726789892!3d35.12439449370824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdown%20town%20conference%20center!5e0!3m2!1sen!2sng!4v1740651669533!5m2!1sen!2sng"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d217754.02413531204!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown.%20Conference%20Center!5e1!3m2!1sen!2sus!4v1740829657600!5m2!1sen!2sus"
                     width="600"
                     height="450"
                     style="border: 0"
@@ -1154,5 +1227,6 @@
         once: false,
       });
     </script>
+    <script src="/script/index.js"></script>
   </body>
 </html>
